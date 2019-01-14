@@ -36,22 +36,25 @@ html{
 .base#meio{
   display: inline;
 }
-.base#esquerda{
-  width: 10%;
-  padding: 0px;
-  /* display: inline; */
+.base-aside{
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  position: relative;
+  width: 15%;
+}
+.base-aside#esquerda{
+
+}
+.base-aside#direita{
+
 }
 .base#conteudo{
-  width: 70%;
-  height: 300px
+  width: 60%;
+  margin: 300px;
   /* display: inline; */
   /* float: right; */
   position: relative;
   /* margin-top: -100px; */
-}
-.base#direita{
-  width: 10%;
-  /* display: inline; */
-  /* float: right; */
-  /* padding: 0px; */
 }
