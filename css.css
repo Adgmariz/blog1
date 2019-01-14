@@ -48,11 +48,11 @@ html{
 
 }
 .base-aside#direita{
-
+  float: right;
 }
 .base#conteudo{
   width: 60%;
-  margin: 300px;
+  margin: 0px 0px 0px 20%;
   /* display: inline; */
   /* float: right; */
   position: relative;
