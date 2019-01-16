@@ -34,27 +34,44 @@ html{
   float: left;
 }
 .base#meio{
-  display: inline;
+  height: 800px;
 }
-.base-aside{
+.base-section{
   border-style: solid;
   border-radius: 20px;
   padding: 10px 10px 10px 10px;
   margin: 5px 5px 5px 5px;
-  position: relative;
+  display: inline-block;
+}
+.base-section#esquerda{
   width: 15%;
+  height: 80%;
 }
-.base-aside#esquerda{
-
+.base-section#esquerda a:hover{
+  background-color: #FF0000;
 }
-.base-aside#direita{
+.base-section#direita{
+  float: right;
+  width: 15%;
+  height: 550px;
+}
+.base-section#conteudo{
+  width: 61%;
+  height: 550px;
   float: right;
 }
-.base#conteudo{
+.base-section#rodape{
   width: 60%;
-  margin: 0px 0px 0px 20%;
-  /* display: inline; */
-  /* float: right; */
-  position: relative;
-  /* margin-top: -100px; */
+  height: 100px;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  margin: -7% 0% 0% 18%;
+}
+.base-section#links{
+  width: 15%;
+  height: 100px;
+  float: right;
+  position: absolute;
+  margin: -7% 0% 0% 81%;
 }
