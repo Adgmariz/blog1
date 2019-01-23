@@ -3,30 +3,49 @@
 */
 html{
   padding: 50px 50px 50px 50px;
+  background-color: #F0F8FF
 }
 .base{
-  border-style: solid;
+  border-style: hidden;
   border-radius: 20px;
   padding: 10px 10px 10px 10px;
   margin: 5px 5px 5px 5px;
   position: relative;
+  font-family: "Times New Roman", Times, serif;
 }
 #logo{
   height: 80px;
   width: 160px;
   margin: 18px 10px 10px 18px;
   position: absolute;
+  background-color: #FFFFFF;
+  border-style: inset;
+}
+header.base{
+  background-color: #E6E6FA;
+  border-style: inset;
+
 }
 .base#caixatp{
   padding-left: 75%;
+}
+.base#topicoscaixatp{
+  border-style: inset;
+}
+.base#pesquisa{
+  background-color: white;
+  border-style: inset;
 }
 .base#secao{
   margin-left: 28%;
   width: 415px;
   height: 75px;
+  background-color: #FFF0F5;
+  border-style: inset;
 }
 .base#secao ul{
-  list-style-type: none;
+  list-style-type: disc;
+  background-color: red;
   margin: 0;
   padding: 0;
 }
@@ -37,8 +56,8 @@ html{
   height: 800px;
 }
 .base-section{
-  border-style: solid;
-  border-radius: 20px;
+  border-style: inset;
+  border-radius: 10px;
   padding: 10px 10px 10px 10px;
   margin: 5px 5px 5px 5px;
   display: inline-block;
@@ -46,6 +65,7 @@ html{
 .base-section#esquerda{
   width: 15%;
   height: 80%;
+  background-color: #F5F5F5;
 }
 .base-section#esquerda a:hover{
   background-color: #FF0000;
@@ -54,11 +74,13 @@ html{
   float: right;
   width: 15%;
   height: 550px;
+  background-color: #F5F5F5;
 }
 .base-section#conteudo{
   width: 61%;
   height: 550px;
   float: right;
+  background-color: #FFFFFF;
 }
 .base-section#rodape{
   width: 60%;
@@ -67,6 +89,7 @@ html{
   float: right;
   position: absolute;
   margin: -7% 0% 0% 18%;
+  background-color: #E6E6FA;
 }
 .base-section#links{
   width: 15%;
@@ -74,4 +97,5 @@ html{
   float: right;
   position: absolute;
   margin: -7% 0% 0% 81%;
+  background-color: #C0C0C0;
 }
